@@ -1,5 +1,8 @@
-import { UilEstate, UilClipboardAlt, UilUsersAlt, UilPackage, UilChart, UilSignOutAlt } from '@iconscout/react-unicons';
-import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
+import { UilEstate, UilClipboardAlt, UilUsersAlt, UilPackage, UilChart,UilUsdSquare, UilMoneyWithdrawal } from '@iconscout/react-unicons';
+
+import img1 from "../imgs/img1.jpeg";
+import img2 from "../imgs/img2.jpg";
+import img3 from "../imgs/img3.jpg";
 
 export const SidebarData = [
     {
@@ -74,4 +77,26 @@ export const CardsData = [
           },
         ],
     },
-]
+];
+
+export const UpdatesData = [
+  {
+    img: img1,
+    name: "Andrew Patrick",
+    noti: "has ordered Apple smart watch 2500mh battery.",
+    time: "25 seconds ago",
+  },
+  {
+    img: img2,
+    name: "James pesh",
+    noti: "has received Samsung gadget for charging battery.",
+    time: "30 minutes ago",
+  },
+  {
+    img: img3,
+    name: "Iron Mani",
+    noti: "has ordered Apple smart watch, samsung Gear 2500mh battery.",
+    time: "2 hours ago",
+  },
+];
+

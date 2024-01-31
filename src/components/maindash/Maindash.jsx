@@ -1,6 +1,7 @@
 import React from 'react';
 import './Maindash.css';
 import Cards from '../cards/Cards';
+import BasicTable from '../table/BasicTable';
 
 
 const Maindash = () => {
@@ -8,6 +9,8 @@ const Maindash = () => {
     <div className='Maindash'>
       <h1>Dashboard</h1>
       <Cards />
+
+      <BasicTable />
     </div>
   )
 }
